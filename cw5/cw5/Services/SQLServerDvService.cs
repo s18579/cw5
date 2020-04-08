@@ -8,6 +8,28 @@ namespace cw5.Services
     public class SQLServerDvService : IStudentsDbService
     {
         private readonly string _conn = "Data Source=db-mssql;Initial Catalog=s18579;Integrated Security=True";
+        public bool checkStudentIndex(string index)
+        {
+            using (var con = new SqlConnection(_conn))
+            {
+                using (var com = new SqlCommand())
+                {
+                    com.Connection = con;
+                    con.Open();
+                    com.CommandText = "SELECT 1 FROM student s WHERE s.indexnumber = @index";
+                    com.Parameters.AddWithValue("index", index);
+                    var dr = com.ExecuteReader();
+                    dr.Read();
+                    if (dr.HasRows)
+                    {
+                        dr.Close();
+                        return true;
+                    }
+                    dr.Close();
+                    return false;
+                }
+            }
+        }
         public async Task<Study> GetStudy(string name)
         {
             using (var conn = new SqlConnection(_conn))

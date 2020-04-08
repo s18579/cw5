@@ -1,0 +1,115 @@
+ ---------------------
+GET
+/
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+GET
+/favicon.ico
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+GET
+/
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+POST
+/
+
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+POST
+/
+
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+POST
+/
+
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+POST
+/
+
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+GET
+/
+
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+GET
+/
+
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+GET
+/
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+GET
+/api/enrollments
+
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+GET
+/api/enrollments
+
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+GET
+/api/enrollments
+
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+GET
+/api/enrollments
+
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+GET
+/api/enrollments
+
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+GET
+/api/enrollments
+
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------
+ ---------------------
+GET
+/api/enrollments
+
+
+Microsoft.AspNetCore.Http.QueryCollection
+---------------------

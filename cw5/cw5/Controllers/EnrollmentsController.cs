@@ -17,6 +17,12 @@ namespace cw5.Controllers
         {
             _stService = studentService;
         }
+        [HttpGet]
+        public string showSmth()
+        {
+            return $"Jacula";
+        }
+
 
         [HttpPost]
         public async Task<IActionResult> Register(Enrollv2 input)

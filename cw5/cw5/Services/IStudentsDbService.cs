@@ -11,5 +11,6 @@ namespace cw5.Services
 
         Task Register(string index, string firstName, string lastName, DateTime birthDate, int studyId);
         Task Promote(string studies, int semester);
+        bool checkStudentIndex(string index);
     }
 }
